@@ -1,9 +1,9 @@
 import tkinter as tk
 from Model import Model
-from View import CurrencyConverterGUI
+from View import View
 
 if __name__ == "__main__":
     converter = Model()
     root = tk.Tk()
-    app = CurrencyConverterGUI(root, converter)
+    app = View(root, converter)
     root.mainloop()

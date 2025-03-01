@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 from Model import Model
 
 
-class CurrencyConverterGUI:
+class View:
     def __init__(self, root, converter):
         self.converter = converter
         self.root = root
